@@ -1,0 +1,161 @@
+/* Styles for the container */
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("https://th.bing.com/th/id/OIP.-zyjeSLKfgt_FrG3TB0aqQHaHK?w=192&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-attachment: fixed; 
+    width: auto; /* Adjust as needed */
+    height: auto;
+    font-family: "Playfair Display", serif;
+    
+
+}
+/* Styles for the header */
+.header h1 {
+    font-size: 24px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.header p {
+    font-size: 16px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Styles for the .menu-item */
+.menu-item {
+    border-bottom: 1px solid #ddd; /* Only the bottom border is set */
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Separates the menu text and the button */
+    border-bottom: 1px solid #ddd; /* Only the bottom border is set */
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.item-info {
+    flex-grow: 1;
+}
+
+
+.menu-image {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+}
+
+
+/* Styles for the order summary */
+#order-summary {
+    margin-top: 20px;
+    padding: 10px;
+    
+    font-family: Arial, sans-serif;
+}
+
+.order-header {
+    
+    font-size: 15px; /* Adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Space below the header */
+  }
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+.order-item .remove-button{
+    color: lightgray; /* Adjust color as needed */
+    font-size: 12px;
+    cursor: pointer;
+    background: white;
+    margin-left: 10px; /* Space from the item name */
+    border: none;
+}
+  
+
+/* Styles for the order summary .total-price */
+.total-line {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+  }
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 18px; /* Adjust as needed */
+  }
+
+
+
+/* Styles for the checkout form */
+#checkout-form input, #checkout-form button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#checkout-form button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+}
+
+/* Styles for the order confirmation */
+#order-confirmation {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+
+.add-button {
+    display: inline-block;
+    width: 25px; /* Size of the button */
+    height: 25px; /* Size of the button */
+    background-color: white; /* Button color */
+    border-radius: 50%; /* Makes it circular */
+    border: 1px solid grey; /* Border color and width */
+    text-align: center; 
+    /* font-size: 30px; Size of the plus sign */
+    cursor: pointer; /* Changes the mouse cursor to a pointer */
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2); /* Optional: adds shadow for depth */
+}
+
+.add-button:focus,
+.add-button:hover {
+    outline: none; /* Removes the outline to maintain the style */
+    background-color: #f8f8f8; /* Light grey background on hover/focus for feedback */
+}
+  .complete-order-button {
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: block;
+    font-size: 18px; /* Adjust as needed */
+    margin: 20px auto 0;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
